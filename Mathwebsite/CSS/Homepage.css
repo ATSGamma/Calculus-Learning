@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav{
+    padding: 0 10px;
+}
+.navbar-nav{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+} 
+.nav-bar{
+    background: white;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.carousel-capion{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-capion h5{
+    color:black;
+    font: 42px;
+}
+.brand{
+    position: fixed;
+    float: left;
+    margin: 1px;
+    top: -1.15%;
+}
